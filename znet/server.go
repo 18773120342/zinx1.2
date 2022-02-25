@@ -2,8 +2,8 @@ package znet
 
 import (
 	"fmt"
-	"github/18773120342/zinx1.2/utils"
-	"github/18773120342/zinx1.2/ziface"
+	"github.com/18773120342/zinx1.2/utils"
+	"github.com/18773120342/zinx1.2/ziface"
 	"net"
 )
 

@@ -3,8 +3,8 @@ package utils
 import (
 	"encoding/json"
 	"fmt"
-	"github/18773120342/zinx1.2/ziface"
-	"github/18773120342/zinx1.2/zlog"
+	"github.com/18773120342/zinx1.2/ziface"
+	"github.com/18773120342/zinx1.2/zlog"
 	"io/ioutil"
 	"os"
 	"time"

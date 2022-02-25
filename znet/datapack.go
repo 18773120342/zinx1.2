@@ -3,7 +3,7 @@ package znet
 import (
 	"bytes"
 	"encoding/binary"
-	"github/18773120342/zinx1.2/ziface"
+	"github.com/18773120342/zinx1.2/ziface"
 )
 
 //封包拆包类实例，暂时不需要成员
