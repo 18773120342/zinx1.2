@@ -33,6 +33,7 @@ type GlobalObj struct {
 	MaxMsgChanLen    uint32 //SendBuffMsg发送消息的缓冲最大长度
 	Redis            string
 	Mongodb          string
+	Consul           string
 	/*
 		config file path
 	*/
