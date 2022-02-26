@@ -22,8 +22,6 @@ type GlobalObj struct {
 	Host      string         //当前服务器主机IP
 	TcpPort   int            //当前服务器主机监听端口号
 	Name      string         //当前服务器名称
-	Mongodb   string         //mongodb
-	PayPort   string         //支付启动的端口
 	/*
 		Zinx
 	*/
@@ -33,7 +31,6 @@ type GlobalObj struct {
 	WorkerPoolSize   uint32 //业务工作Worker池的数量
 	MaxWorkerTaskLen uint32 //业务工作Worker对应负责的任务队列最大任务存储数量
 	MaxMsgChanLen    uint32 //SendBuffMsg发送消息的缓冲最大长度
-
 	/*
 		config file path
 	*/
@@ -46,26 +43,6 @@ type GlobalObj struct {
 	LogFile       string //日志文件名称   默认""  --如果没有设置日志文件，打印信息将打印至stderr
 	LogDebugClose bool   //是否关闭Debug日志级别调试信息 默认false  -- 默认打开debug信息
 	StartTime     uint32
-	Redis         Redis
-	MysqlUser     Mysql
-	MysqlDate     Mysql
-	Dist          Dist
-}
-
-type Mysql struct {
-	Accp string
-	Max  int
-}
-type Redis struct {
-	Accp string
-	Pwd  string
-	DB   int
-}
-type Dist struct {
-	Line string
-	Ip   string
-	Port int
-	Name string
 }
 
 /*
